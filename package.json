@@ -1,0 +1,28 @@
+{
+  "name": "coding_nodejs",
+  "version": "1.0.0",
+  "description": "NodeJD Coding",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephdrivera/Coding_NodeJS.git"
+  },
+  "author": "Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephdrivera/Coding_NodeJS/issues"
+  },
+  "homepage": "https://github.com/josephdrivera/Coding_NodeJS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "exppress": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
